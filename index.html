@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Digital Countdown Clock</h1>
+
+    <p>Pick A Date You Want To Countdown To</p>
+
+    <input type="datetime-local" class="dateinput">
+
+    <script src="index.js"></script>
+    <button id="b1" onclick="verify()">BEGIN COUNTDOWN</button>  
+    <button id="b2" onclick="reset()">RESET</button>  
+
+
+
+    <div class="container">
+        <span class="days">00 : </span>
+        <span class="hours">00 : </span>
+        <span class="minutes">00 : </span>
+        <span class="seconds">00</span>
+      </div>      
+
+</body>
+</html>

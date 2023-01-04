@@ -1,0 +1,65 @@
+h1{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    color: aliceblue;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+p{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: aliceblue;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(0, 51, 58);
+}
+
+.dateinput{
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(29, 29, 29);
+    font-size: 25px;
+}
+
+#b1{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    color: rgb(22, 22, 22);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+    font-family:'Lucida Grande';
+    background-color: aliceblue;
+}
+
+#b2{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    color: rgb(22, 22, 22);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+    font-family:'Lucida Grande';
+    background-color: aliceblue;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+span {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+  }
